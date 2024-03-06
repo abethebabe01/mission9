@@ -34,7 +34,7 @@ class Team extends React.Component<TeamProps> {
     }
 
     return (
-      <div>
+      <div className="team-card">
         <h2>School: {oneTeam.school}</h2>
         <h3>Mascot: {oneTeam.name}</h3>
         <h3>
@@ -59,10 +59,6 @@ function TeamsList() {
       ))}
     </div>
   );
-}
-
-function Fortnite() {
-  return <h1>Fortnite Battlepass.</h1>;
 }
 
 function App() {
